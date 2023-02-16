@@ -78,6 +78,7 @@ app.use(helmet({
 
 * Setup database connection
 ```JavaScript
+// config/sequelize.js
 const databaseHost = process.env.DATABASE_HOST
 const databasePort = process.env.DATABASE_PORT
 const databaseUsername = process.env.DATABASE_USERNAME
