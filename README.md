@@ -2,7 +2,7 @@
 We will learn how to run a basic _Node.js_ HTTP server and setup our project structure using the _Express_ framework.
 Secondly, we will understand how to create the Model of our project (from the MVC pattern) and learn how the _Sequelize_ package will help us creating the relational database schema and perform operations on the Maria Database.
 ## Prerequisites
-* Keep in mind we are developing the backend software needed for DeliverUS project. Please, read project requirements found at:  https://github.com/IISSI2-IS/DeliverUS-Backend-2022-2023/blob/main/README.md
+* Keep in mind we are developing the backend software needed for DeliverUS project. Please, read project requirements found at:  https://github.com/IISSI2-IS-2022-2023/DeliverUS-Backend-2022-2023/blob/main/README.md
   * The template project includes EsLint configuration so it should auto-fix formatting problems as soon as a file is saved.
 
 
@@ -119,7 +119,7 @@ Deliverus listening at http://localhost:3000
 * Alternatively you can run and debug your project by using the *Run and Debug* tool of VSCode. It can be found on the left-sided bar or by typing `shift+ctrl+D`, and selecting `Run Script: start` in the drop down list. Add a breakpoint at lines 33 and 36 of backend.js, and click on the play icon in the *Run and Debug* tool to debug this file. Inspect `server` and `error` variables respectively.
 
 ## 4. Migrations
-Keep in mind the requirements described at: https://github.com/IISSI2-IS/DeliverUS-Backend-2022-2023/blob/main/README.md
+Keep in mind the requirements described at: https://github.com/IISSI2-IS-2022-2023/DeliverUS-Backend-2022-2023/blob/main/README.md
 
 And this is the Entity diagram proposed:
 
