@@ -189,7 +189,7 @@ If you make any changes to migrations or seeders, you can update the database by
 ## 6. Models
 Object Relational Mapping (ORM) is a software programming technique to bind business logic objects to data sources, so programmers can directly work with high-level objects in order to perform database operations seamlessly. Usually, objects that are related to database entities are called _Models_ and we work with them in order to interact with their corresponding database entities for standard CRUD (create, read, update and delete) operations. When using ORM tools you are provided with the following operations: create, findAll, update and destroy (among others).
 
-Sequelize is a Node.js Object Relational Mapping tool that provides all the necessary tools for establishing connections to the database (as explained in [exercise 3.2](https://github.eii.us.es/IISSI2-IS/Lab1-Backend-Model/wiki#32-run-http-server-and-connect-to-database)), running migrations and seeders ([exercise 4](https://github.eii.us.es/IISSI2-IS/Lab1-Backend-Model/wiki#4-migrations) and [exercise 5](https://github.eii.us.es/IISSI2-IS/Lab1-Backend-Model/wiki#5-seeders)), defining models and perform operations.
+Sequelize is a Node.js Object Relational Mapping tool that provides all the necessary tools for establishing connections to the database (as explained in section 3), running migrations and seeders (sections 4 and 5), defining models and perform operations.
 
 You can find Models definitions for all entities at `models` folder. Each model is a class named after its corresponding table (but in singular) and extends the Model class from Sequelize.
 
